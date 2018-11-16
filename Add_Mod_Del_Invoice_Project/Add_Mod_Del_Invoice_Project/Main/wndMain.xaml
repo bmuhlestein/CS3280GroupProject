@@ -1,4 +1,4 @@
-﻿<Window x:Class="Add_Mod_Del_Invoice_Project.MainWindow"
+﻿<Window x:Name="wndMain" x:Class="Add_Mod_Del_Invoice_Project.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -7,7 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Height="60" Margin="163,113,0,0" VerticalAlignment="Top" Width="216"/>
-
+        <Menu IsMainMenu="True" Margin="0,0,0.4,291.8">
+            <MenuItem x:Name="updatedeftable" Header="Update Def table"></MenuItem>
+            <MenuItem x:Name="searchforinvoice" Header="Search for Invoice" Click="searchforinvoice_Click"/>
+        </Menu>
+        <RadioButton x:Name="rbtnNewInvoice" Content="New Invoice" HorizontalAlignment="Left" Margin="69,42,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rbtnModifyInvoice" Content="Modify Invoice" HorizontalAlignment="Left" Margin="203,42,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rbtnDeleteInvoice" Content="Delete Invoice" HorizontalAlignment="Left" Margin="340,42,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>

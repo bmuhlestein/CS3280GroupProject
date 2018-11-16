@@ -24,5 +24,12 @@ namespace Add_Mod_Del_Invoice_Project
         {
             InitializeComponent();
         }
+
+        private void searchforinvoice_Click(object sender, RoutedEventArgs e)
+        {
+            Search.wndSearch wndsearch = new Search.wndSearch();
+            this.Hide();
+            wndsearch.ShowDialog();
+        }
     }
 }
