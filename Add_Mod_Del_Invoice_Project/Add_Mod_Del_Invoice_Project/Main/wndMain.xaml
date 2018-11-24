@@ -16,7 +16,7 @@
         <RadioButton x:Name="rbtnDeleteInvoice" Content="Delete Invoice" HorizontalAlignment="Left" Margin="340,42,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lblInvoiceNumber" Content="Invoice Number:" HorizontalAlignment="Left" Height="29" Margin="10,73,0,0" VerticalAlignment="Top" Width="107"/>
         <TextBox x:Name="tbtInvoiceNumber" HorizontalAlignment="Left" Height="26" Margin="117,77,0,0" TextWrapping="Wrap" Text="TBD" VerticalAlignment="Top" Width="109" IsEnabled="False"/>
-        <Label x:Name="lblInvoiceDate" Content="Invoice Date:" HorizontalAlignment="Left" Margin="287,73,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblInvoiceDate" Content="Invoice Date:" HorizontalAlignment="Left" Margin="286,73,0,0" VerticalAlignment="Top"/>
         <DatePicker HorizontalAlignment="Left" Height="26" Margin="371,74,0,0" VerticalAlignment="Top" Width="117" IsEnabled="False"/>
         <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Height="28" Margin="117,120,0,0" VerticalAlignment="Top" Width="140" IsEnabled="False"/>
         <Label x:Name="lblSelectItem" Content="Select Item:" HorizontalAlignment="Left" Margin="36,120,0,0" VerticalAlignment="Top" Width="81"/>
